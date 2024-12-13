@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album de Photos de Plats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .caption {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Desserts</h1>
+    <div class="gallery">
+        <!-- Photo 1 -->
+        <div class="gallery-item">
+            <img src="cookies.png" alt="Pastilla">
+            <div class="caption">Cookies.</div>
+        </div>
+        <!-- Photo 2 -->
+        <div class="gallery-item">
+            <img src="Gateaufraise.Png" alt="Gateau glacé">
+            <div class="caption">Gateaux</div>
+        </div>
+        <!-- Photo 3 -->
+        <div class="gallery-item">
+            <img src="Plateaux.png" alt="Plat 3">
+            <div class="caption">Plateaux</div>
+        </div>
+        <!-- Photo 4 -->
+        <div class="gallery-item">
+            <img src="Brioche.png" alt="Plat 4">
+            <div class="caption">Brioche</div>
+        </div>
+        <!-- Ajoutez d'autres photos ici -->
+    </div>
+</div>
+<Hr>
+<a href="acceuil.html">Acceuil</a>
+<Br>
+<Hr>
+<Hr>
+<a href="Contact.html"> Contact </a>
+<Br>
+<Hr>
+<Hr>
+<a href="purdelice.html"> Nos plats </a>
+<Br>
+<Hr>
+<Hr>
+<a href="purdelicee.html"> Nos desserts </a>
+<Br>
+<Hr>
+</body>
+</html>
